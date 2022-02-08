@@ -313,6 +313,7 @@ table {
     justify-content: center;
     align-items: center;
     backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
 }
 
 
@@ -397,6 +398,7 @@ table {
     align-items: center;
     flex-direction: column;
     backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
     align-self: center;
     display: flex;
 
