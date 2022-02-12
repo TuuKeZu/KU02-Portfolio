@@ -238,6 +238,8 @@ table {
 .section-background{
     background-image: url(./img/Placeholder-01.jpg);
 
+    background-repeat: no-repeat;
+
     background-size: cover;
     background-position: center center;
 
@@ -275,7 +277,8 @@ table {
 }
 
 #img-bg-5{
-    background-image: url(./img/img-bg-3.png);
+    background-image: url(./img/img-bg-5.png);
+    background-position: left;
     color: #E2A983;
 }
 
@@ -353,16 +356,25 @@ table {
 #img-main-2{
     background-image: url(./img/img-main-2.jpg);
     aspect-ratio: 1500 / 2000;
+    min-width: height * 1.33;
 }
 
 #img-main-3{
     background-image: url(./img/img-main-4.jpg);
     aspect-ratio: 1500 / 2000;
+    min-width: height * 1.33;
 }
 
 #img-main-4{
     background-image: url(./img/img-main-3.jpg);
     aspect-ratio: 1500 / 2000;
+    min-width: height * 1.33;
+}
+
+#img-main-5{
+    background-image: url(./img/img-main-5.png);
+    aspect-ratio: 2000 / 1500;
+    min-width: height * 1.33;
 }
 
 #img-main-7{
@@ -382,11 +394,13 @@ table {
 #img-main-9{
     background-image: url(./img/img-main-9.png);
     aspect-ratio: 641 / 831;
+    min-width: height * 1.29;
 }
 
 #img-main-10{
     background-image: url(./img/img-main-10.png);
     aspect-ratio: 640 / 729;
+    min-width: height * 1.17;
 }
 
 
